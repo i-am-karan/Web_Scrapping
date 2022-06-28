@@ -1,0 +1,12 @@
+               /******* first lecture on client server architecture ***/
+--> Type of requests we can make as a client and we expect the desired result of our request form the server:-
+   a)Get request:to read the resources provided by the website.
+   b)Post request:we as a client to create something new on the website like sign up , submitting a
+                 solution of codechef,az,cf, thus it is an creating reqeust ,client can create a new                  experience on the website.
+   c)Patch request:We as a client want to update something which is already present on the website.
+                   Like liking an video on youtube, doing mark as completed on az. 
+   d)Delete request:We want to delete some expereince which we created earlier.
+
+
+
+
