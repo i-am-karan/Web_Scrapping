@@ -12,8 +12,8 @@ wn=nltk.WordNetLemmatizer()
 final_data=[]
 freq={}
 exclude=set(string.punctuation)
-for i in range(1,3374):
-    os.remove(f'p{i}keyword.txt')
+# for i in range(1,3374):
+#     os.remove(f'p{i}keyword.txt')
 
 final_data.sort()
 final_data=list(dict.fromkeys(final_data))
@@ -71,4 +71,4 @@ f2.close()
 #     else:
 #         mg+=(val*val)
 
-# print(mg)
+# print(mg)+
